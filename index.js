@@ -16,7 +16,7 @@ app.use("/emps", empsRouter);
 app.use("/admin", adminRouter);
 
 app.listen(port, ()=>{
-    console.log("Server Started..");
+    console.log("Server Started on port 9898..");
 });
 
 
